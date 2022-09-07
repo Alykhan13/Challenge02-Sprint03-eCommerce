@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- challengeonealurageeklatam2 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9ccccc5d65.js" crossorigin="anonymous"></script>
+    <title>eCommerce</title>
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <section class="login">
+            <span class="logo">
+                <span class="logo__controller">
+                    <i class="fa-solid fa-gamepad"></i>
+                </span>
+                <span class="logo__text">
+                    <span class="word__1">Gaming</span>
+                    <span class="word__2">Store</span>
+                </span>
+            </span>
+            <h3 class="login__title">Iniciar sesión</h3>
+            <input type="text" id="username" class="input__username" placeholder="Ingresar correo electrónico" autocomplete="off">
+            <input type="password" id="password" class="input__password" placeholder="Ingresar contraseña">
+            <button id="login__entry__btn" class="btn btn__1 btn__enter">Entrar</button>
+            <button id="login__cancel__btn" class="btn btn__2 btn__cancel">Cancelar</button>
+        </section>
+
+        <nav class="nav">
+            <span id="logo" class="logo">
+                <span class="logo__controller">
+                    <i class="fa-solid fa-gamepad"></i>
+                </span>
+                <span class="logo__text">
+                    <span class="word__1">Gaming</span>
+                    <span class="word__2">Store</span>
+                </span>
+            </span>
+            <span class="login__container">
+                <span class="login__user__container hidden">
+                    <i class="user__icon fa-solid fa-user"></i>
+                    <span class="username">USERNAME</span>
+                </span>
+                <button id="login__btn" class="btn__login btn btn__2">Login</button>
+            </span>
+            <div class="input__wrapper">
+                <input type="search" name="search__input__2" id="search__input__2" class="input__search search__input__2" placeholder="Ingrese su búsqueda">
+                
+                <span id="search__icon__container" class="search">
+                    <i class="search__icon fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+        </nav>
+
+        <span id="search__input__container" class="search__input__container">
+            <input type="search" name="search__input" id="search__input" class="input__search search__input" placeholder="Ingrese su búsqueda">
+        </span>
+
+        <section class="product__view">
+            <div class="product__view__glass">
+                <div class="product__view__container">
+                    <img class="product__view__img" src="" alt="">
+                    <div class="product__view__text">
+                        <h3 class="product__view__name"></h4>
+                        <h4 class="product__view__price"></h4>
+                        <p class="product__view__description"></p>
+                        <div class="back-btn__container">
+                            <button class="btn btn__1 back-btn">Volver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="scrollable" class="scrollable">
+            <header class="header" id="header">
+                <div class="header__description__container">
+                    <div class="header__description">
+                        <h2 class="header__title">Julio Promocional</h2>
+                        <p>Productos seleccionados hasta con 46% de descuento<span class="header__complete-sentence">. Adéntrate a explorar toda la lista de increíbles artículos y descuentos que tenemos para ti</span> </p>
+                        <span class="btn__container"><button class="btn btn__1" id="header__btn">Ver productos</button></span>
+                    </div>
+                </div>
+            </header>
+    
+            <main class="main" data-type-main>
+                <!-- <section class="section">
+                    <div class="section__top">
+                        <h3 class="section__name">Videojuegos</h3>
+                        <a href="#" class="section__view-all">Ver todo
+                            <i class="view-all__icon fa-solid-fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                    <ul class="section__list">
+                        <li class="item">
+                            <img src="" alt="">
+                            <div class="item__description">
+                                <p class="item__name">Producto XYZ<span class="item__id">id</span></p>
+                                <h4 class="item__price">$30mxn</h4>
+                                <a href="#" class="item__view">Ver producto</a>
+                                <span class="item__tags">descuento+geek+videojuegos</span>
+                            </div>
+                        </li>
+                    </ul>
+                </section> -->
+            </main>
+    
+            <footer class="footer">
+                <div class="footer__info">
+                    <span class="logo">
+                        <span class="logo__controller">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </span>
+                        <span class="logo__text">
+                            <span class="word__1">Gaming</span>
+                            <span class="word__2">Store</span>
+                        </span>
+                    </span>
+                    <div class="info__links__container">
+                        <a href="" class="info__links">Quienes somos</a>
+                        <a href="" class="info__links">Política de privacidad</a>
+                        <a href="" class="info__links">Programa de fidelidad</a>
+                        <a href="" class="info__links">Nuestras tiendas</a>
+                        <a href="" class="info__links">Quiero ser franquiciado</a>
+                        <a href="" class="info__links">Anuncie aquí</a>
+                    </div>
+                </div>
+                <div class="footer__contact">
+                    <span>Hable con nosotros</span>
+                    <div class="input__name__container">
+                        <input type="text" class="input__name" id="input__name" maxlength="50" required>
+                        <label for="input__name" class="input__name__lbl">Nombre</label>
+                    </div>
+                    <textarea name="input__message" class="input__message" id="input__message" placeholder="Escribe tu mensaje (máx 300 caracteres)" maxlength="300"></textarea>
+                    <div class="btn__container">
+                        <button class="btn btn__1">Enviar mensaje</button>
+                    </div>
+                </div>
+                <div class="footer__credits">
+                    <p>Desarrollado por Alan G. 2022</p>
+                </div>
+            </footer>
+        </div>
+        
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

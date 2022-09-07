@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9ccccc5d65.js" crossorigin="anonymous"></script>
+    <title>eCommerce - Admin</title>
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <section class="add-item">
+            <div class="add-item__form__container">
+                <h3 class="add-item__title">Agregar artículo</h3>
+                <div class="select__category" id="select__category">
+                    <div class="select__default">
+                        <span class="select__default__text">
+                            Seleccionar categoría
+                        </span> 
+                        <i class="category__icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <ul class="options__container">
+                        <li class="select__option__item">
+                            <input type="radio" name="option__1" id="option__1" class="option__radio">
+                            <label for="option__1" class="option__label">Seccion 1</label>
+                        </li>
+                        <li class="select__option__item">
+                            <input type="radio" name="option__2" id="option__2" class="option__radio">
+                            <label for="option__2" class="option__label">Seccion 2</label>
+                        </li>
+                        <li class="select__option__item">
+                            <input type="radio" name="option__3" id="option__3" class="option__radio">
+                            <label for="option__3" class="option__label">Seccion 3</label>
+                        </li>
+                    </ul>
+                </div>
+                <input type="text" class="add-item__name" placeholder="Nombre del artículo">
+                <input type="number" min="1" step="any" class="add-item__price" placeholder="Costo del artículo (ejemplo $300.00)">
+                <input type="text" class="add-item__image-url" placeholder="Ingresa la URL de la imagen">
+                <input type="text" class="add-item__sections" placeholder="Ingresa secciones donde quieres que aparezca el artículo">
+                <input type="text" class="add-item__tags" placeholder="Ingresa etiquetas para facilitar su búsqueda">
+                <textarea name="" id="" class="add-item__description" placeholder="Descripción del artículo"></textarea>
+                <div class="add-item__btns__container">
+                    <button class="btn btn__1 btn__add">Aceptar</button>
+                    <button class="btn btn__2 btn__add-cancel">Cancelar</button>
+                </div>
+            </div>
+        </section>
+
+        <nav class="nav">
+            <span id="logo" class="logo">
+                <span class="logo__controller">
+                    <i class="fa-solid fa-gamepad"></i>
+                </span>
+                <span class="logo__text">
+                    <span class="word__1">Gaming</span>
+                    <span class="word__2">Store</span>
+                </span>
+            </span>
+            <span class="login__container">
+                <span class="login__user__container">
+                    <i class="user__icon fa-solid fa-user"></i>
+                    <span class="username">USERNAME</span>
+                </span>
+                <button class="btn__login btn btn__2 hidden">Login</button>
+            </span>
+            <span id="search__icon__container" class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+        </nav>
+
+        <span class="search__input__container">
+            <input type="search" name="search__input" id="search__input" class="search__input">
+        </span>
+
+        <div id="scrollable" class="scrollable">
+            <main class="main">
+                <section class="admin__section">
+                    <h3 class="section__name">Mis artículos</h3>
+                    <ul class="section__list">
+                        <!-- <li class="item">
+                            <span class="img__icons">
+                                <i class="img__icons__delete fa-solid fa-trash"></i>
+                                <i class="img__icons__modify fa-solid fa-pencil"></i>
+                            </span>
+                            <img src="https://picsum.photos/160/180" alt="">
+                            <div class="item__description">
+                                <p class="item__name">Producto XYZ</p>
+                                <h4 class="item__price">$30.00mxn</h4>
+                                <p class="item__id"><span class="id__text">id: </span>111111</p>
+                            </div>
+                        </li> -->
+                        
+                    </ul>
+                    <div class="add-item-btn__container">
+                        <button class="btn btn__1 add-item-btn">Agregar artículo</button>
+                    </div>
+                </section>
+            </main>
+    
+            <footer class="footer">
+                <div class="footer__info">
+                    <span class="logo">
+                        <span class="logo__controller">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </span>
+                        <span class="logo__text">
+                            <span class="word__1">Gaming</span>
+                            <span class="word__2">Store</span>
+                        </span>
+                    </span>
+                    <div class="info__links__container">
+                        <a href="" class="info__links">Quienes somos</a>
+                        <a href="" class="info__links">Política de privacidad</a>
+                        <a href="" class="info__links">Programa de fidelidad</a>
+                        <a href="" class="info__links">Nuestras tiendas</a>
+                        <a href="" class="info__links">Quiero ser franquiciado</a>
+                        <a href="" class="info__links">Anuncie aquí</a>
+                    </div>
+                </div>
+                <div class="footer__contact">
+                    <span>Hable con nosotros</span>
+                    <div class="input__name__container">
+                        <input type="text" class="input__name" id="input__name" maxlength="50" required>
+                        <label for="input__name" class="input__name__lbl">Nombre</label>
+                    </div>
+                    <textarea name="input__message" class="input__message" id="input__message" placeholder="Escribe tu mensaje (máx 300 caracteres)" maxlength="300"></textarea>
+                    <div class="btn__container">
+                        <button class="btn btn__1">Enviar mensaje</button>
+                    </div>
+                </div>
+                <div class="footer__credits">
+                    <p>Desarrollado por Alan G. 2022</p>
+                </div>
+            </footer>
+        </div>
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/nav.js"></script>
+    <script type="module" src="js/adminItems.js"></script>
+</body>
+</html>

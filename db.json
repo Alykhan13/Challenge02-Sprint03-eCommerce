@@ -1,0 +1,268 @@
+{
+  "productos": [
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "https://3.bp.blogspot.com/-IuP-lAVYIuQ/VIyK05k30DI/AAAAAAAA6co/d4O0I1wYxdU/s1600/plancha-iron-man.jpg",
+      "price": 30,
+      "id": 1,
+      "section": [
+        "Videojuegos",
+        "Geek"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "descuento",
+        "videojuegos",
+        "geek"
+      ]
+    },
+    {
+      "name": "Legos de Star Wars",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGwaSMXDPTxUFhqzOXrK_bkO1XRdLiuPmt4w&usqp=CAU",
+      "price": "45.5",
+      "section": [
+        "Star Wars",
+        "Lego"
+      ],
+      "description": "Figuras de Lego de Star Wars",
+      "tags": [
+        "descuento",
+        "juegos de mesa"
+      ],
+      "id": 2
+    },
+    {
+      "name": "Producto ADE",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcXVNduATG1pdh_7I2jKWIDdFPbNX5IwLMLg&usqp=CAU",
+      "price": 28,
+      "id": 3,
+      "section": [
+        "Geek"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "geek"
+      ]
+    },
+    {
+      "name": "Producto ZZZ",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPt1T36ua2Wl4eraihiznq3X6Cd8gbAKLc9A&usqp=CAU",
+      "price": 65.3,
+      "id": 4,
+      "section": [
+        "Videojuegos"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "descuento",
+        "videojuegos"
+      ]
+    },
+    {
+      "name": "Producto XYZ 2",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVICzWrtB0I_lLj0iHSjN_9RjKJ-VJdA0n6A&usqp=CAU",
+      "price": 50.15,
+      "id": 5,
+      "section": [
+        "Videojuegos",
+        "Geek",
+        "Star Wars"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "descuento",
+        "videojuegos",
+        "geek"
+      ]
+    },
+    {
+      "name": "Producto AYF 2",
+      "imageUrl": "https://www.wargamer.com/wp-content/uploads/2021/03/dnd-miniatures-icons-of-the-realms.jpg",
+      "price": 25,
+      "id": 6,
+      "section": [
+        "Juegos de mesa",
+        "Geek",
+        "Miniaturas"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "juegos de mesa"
+      ]
+    },
+    {
+      "name": "Producto ADE 2",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppCM06wcnFhbmkP0E2cAUwNNqy1ehsAKBr_eANOi2kn1a30WLU-CzpXYino4OtzQzh90&usqp=CAU",
+      "price": 32.6,
+      "id": 7,
+      "section": [
+        "Geek"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "geek"
+      ]
+    },
+    {
+      "name": "Producto ZZZ 2",
+      "imageUrl": "https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg",
+      "price": 75.1,
+      "id": 8,
+      "section": [
+        "Videojuegos",
+        "Star Wars"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "descuento",
+        "videojuegos"
+      ]
+    },
+    {
+      "name": "Producto XYZ 3",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVICzWrtB0I_lLj0iHSjN_9RjKJ-VJdA0n6A&usqp=CAU",
+      "price": 85,
+      "id": 9,
+      "section": [
+        "Videojuegos",
+        "Geek",
+        "Star Wars"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "descuento",
+        "videojuegos",
+        "geek"
+      ]
+    },
+    {
+      "name": "Producto AYF 3",
+      "imageUrl": "https://www.wargamer.com/wp-content/uploads/2021/03/dnd-miniatures-icons-of-the-realms.jpg",
+      "price": 125.5,
+      "id": 10,
+      "section": [
+        "Juegos de mesa",
+        "Geek",
+        "Miniaturas"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "juegos de mesa"
+      ]
+    },
+    {
+      "name": "Producto ADE 3",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppCM06wcnFhbmkP0E2cAUwNNqy1ehsAKBr_eANOi2kn1a30WLU-CzpXYino4OtzQzh90&usqp=CAU",
+      "price": 40.6,
+      "id": 11,
+      "section": [
+        "Geek"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "geek"
+      ]
+    },
+    {
+      "name": "Producto ZZZ 3",
+      "imageUrl": "https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg",
+      "price": 86.7,
+      "id": 12,
+      "section": [
+        "Videojuegos",
+        "Star Wars"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "descuento",
+        "videojuegos"
+      ]
+    },
+    {
+      "name": "Producto XYZ 4",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVICzWrtB0I_lLj0iHSjN_9RjKJ-VJdA0n6A&usqp=CAU",
+      "price": 93.8,
+      "id": 13,
+      "section": [
+        "Videojuegos",
+        "Geek",
+        "Star Wars"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "descuento",
+        "videojuegos",
+        "geek"
+      ]
+    },
+    {
+      "name": "Producto AYF 4",
+      "imageUrl": "https://www.wargamer.com/wp-content/uploads/2021/03/dnd-miniatures-icons-of-the-realms.jpg",
+      "price": 125,
+      "id": 14,
+      "section": [
+        "Juegos de mesa",
+        "Geek",
+        "Miniaturas"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "juegos de mesa"
+      ]
+    },
+    {
+      "name": "Producto ADE 4",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppCM06wcnFhbmkP0E2cAUwNNqy1ehsAKBr_eANOi2kn1a30WLU-CzpXYino4OtzQzh90&usqp=CAU",
+      "price": 175.3,
+      "id": 15,
+      "section": [
+        "Geek"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "geek"
+      ]
+    },
+    {
+      "name": "Producto ZZZ 4",
+      "imageUrl": "https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg",
+      "price": 25.6,
+      "id": 16,
+      "section": [
+        "Videojuegos",
+        "Star Wars"
+      ],
+      "description": "Descripcion del producto",
+      "tags": [
+        "descuento",
+        "videojuegos"
+      ]
+    },
+    {
+      "name": "Juegos de cartas UNO",
+      "imageUrl": "https://ss424.liverpool.com.mx/sm/30278089.jpg",
+      "price": "75.50",
+      "section": [
+        "Juegos de mesa"
+      ],
+      "description": "Juego de cartas competitivo clásico, de 2 a 4 jugadores",
+      "tags": [
+        "juegos de mesa"
+      ],
+      "id": "4881127e-c8bc-408f-a277-224d042ff728"
+    },
+    {
+      "name": "Juego de mesa \"Simón dice\"",
+      "imageUrl": "https://i.emezeta.com/weblog/juegos-de-mesa/simon.jpg",
+      "price": "175.3",
+      "section": [
+        "Juegos de mesa"
+      ],
+      "description": "Juego de mesa \"Simón dice\", de 1 a 4 jugadores",
+      "tags": [
+        "juegos de mesa"
+      ],
+      "id": "56f3dd4b-88ed-455f-9a21-0e6c3956a5b0"
+    }
+  ]
+}
